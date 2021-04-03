@@ -1,1 +1,166 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mireille Gallegos Showcase</title>
+  <link rel="stylesheet" href="dist/styles/theme1/main.min.css">
+</head>
+<body>
+  <main>
+    <section class="hero bg-overlay" id="hero">
+      <img width="1920" height="1440" 
+        src="src/images//flight-bg.jpg" 
+        class="bg-cover" 
+        alt="View of clouds from plane" 
+        loading="lazy" 
+        srcset="src/images//flight-bg.jpg 1920w, 
+        src/images//flight-bg-1024x768.jpg 1024w, 
+        src/images//flight-bg-768x576.jpg 768w, 
+        src/images//flight-bg-1536x1152.jpg 1536w" 
+        sizes="(max-width: 1920px) 100vw, 1920px">
+
+      <div class="container-fluid">
+        <h1>Hello World!</h1>
+        <p>I'm <strong>Mireille Gallegos</strong>. I make websites</p>
+        <a href="#skills" class="btn btn-fancy">Show me!</a>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="container-fluid intro">
+        <h2>Tools of the Trade</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7">
+
+            <h3>Skills</h3>
+            <ul class="skills">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Sass/SCSS</li>
+              <li>Bootstrap 4</li>
+              <li>WordPress</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Vue</li>
+              <li>PHP</li>
+              <li>Web Accessibility</li>
+              <li>Mobile First Responsive Web Development</li>
+            </ul>	
+          </div>
+          <div class="col-md-4">
+            <h3>Tools</h3>
+            <ul class="tools">
+              <li>git</li>
+              <li>gulp</li>
+              <li>npm</li>
+              <li>Icon Fonts</li>
+              <li>Google Fonts</li>
+              <li>Sketch</li>
+              <li>Photoshop</li>
+              <li>Figma</li>
+            </ul>	
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container-fluid intro">
+        <h2>Portfolio</h2>
+        <p><strong>Q:</strong> What do these websites have in common? <strong></p>
+        <p>A:</strong> I was a frontend developer for all of them.</p>
+      </div>
+      <div class="container-fluid">
+        <ul class="work-grid__list">
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://yorkandchapel.com" target="_blank">York & Chapel</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://yorkandchapel.com/work/culturelle/" target="_blank">Culturelle: Healthiest You Ever Campaign</a></div>
+          </li>				
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://productportal.humanscale.com/" target="_blank">Humanscale Product Portal</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://www.rti.com/en/" target="_blank">RTI</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://www.northpark.edu/" target="_blank">North Park University</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://www.cmrito.org/" target="_blank">CMRITO</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://ljoinc.com/" target="_blank">LJO</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://felicity-house.org/" target="_blank">Felicity House</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://scinto.com/" target="_blank">Scinto</a></div>
+          </li>
+          <li class="work-grid__item">
+            <div class="work-grid__content"><a href="https://royalwine.com/" target="_blank">Royalwine</a></div>
+          </li>
+        </ul>
+
+        <div class="alert alert-dark grid-credit mt-7">Credit to Jesse Breneman for the article on <a href="https://ninjarockstar.dev/css-hex-grids/" target="_blank">creating a workagonal grid using CSS grid</a> which served as a starting point for this section. </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container-fluid">
+        <div class="bio">
+          <div class="bio-support-img">
+            <img src="src/images//2bpic-768x955.jpg" alt="Mireille Gallegos Portrait">
+          </div>
+          <div class="bio-content">
+            <h2>About the Author</h2>
+            <h3>(Me: <span class="highlight">Mireille Gallegos</span>!)</h3>
+            <p>Hello World!</p>
+            <p>I'm a Front End Web Developer with agency experience. I have a fascination with CSS pseudo classes and making code efficient.
+              I once used the Pythagorean Theorum in a project and it totally made my day. 
+            </p>
+            <p>I've enjoyed the spectrum of projects I've been able to work on, from landing pages, promotional campaigns, 
+              e-commerce sites, university sites and much more. I've got a solid toolset and I look forward to expanding it, from CSS grid to React.
+            </p>
+            <p>The part I love most about web is how adaptable it can be. The same data and content can be displayed in a 
+              myriad of different ways, on devices of all sizes, for audiences of all types.</p>
+
+            <!-- <h4>Wanna See?</h4>
+            <div class="btn-group" role="group" aria-label="Theme Selector">
+              <button type="button" class="btn btn-secondary">Theme 1</button>
+              <button type="button" class="btn btn-secondary">Theme 2</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container-fluid intro">
+        <h2>Contact Me</h2>
+        <p class="lead">Send me a message through my: </p>
+      </div>
+      <div class="container-fluid">
+        <h3 class="cta">
+          <a href="https://www.linkedin.com/in/mireille-gallegos/" target="_blank">
+            <i class="fab fa-linkedin"></i> Linkedin page!
+          </a>
+        </h3>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer" class="site-footer">
+		<div class="container-fluid site-info">
+			&copy; 2021 Mireille Gallegos. All rights reserved.
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+
+  <script src="dist/scripts/jquery.min.js"></script>
+  <script src="dist/scripts/libs.js"></script>
+  <script src="dist/scripts/main.min.js"></script>
+</body>
+</html>

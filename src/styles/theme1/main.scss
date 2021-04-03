@@ -1,0 +1,21 @@
+// $fa-font-path: "../../../node_modules/@fortawesome-free/webfonts";
+@import '../../../node_modules/bootstrap/scss/_functions';
+@import '_variables';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+//@import '../../node_modules/flickity/dist/flickity.min.css';
+@import '../../../node_modules/bootstrap-select/dist/css/bootstrap-select.min.css';
+// @import '../../../node_modules/@fortawesome/fontawesome-free/css/solid.css';
+
+@import '_structure';
+@import '_utilities';
+@import '_typography';
+@import '_header';
+@import '_footer';
+@import '_buttons';
+@import '_cards';
+@import '_hex-grid';
+
+@import '_section-about';
+@import '_section-skills';
+@import '_section-portfolio';
+@import '_section-contact';

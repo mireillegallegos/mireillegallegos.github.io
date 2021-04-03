@@ -1,0 +1,92 @@
+#skills {
+  background: $secondary;
+  color: $white;
+
+  .col-md-7 {
+    position: relative;
+    margin-bottom: $spacer * 2;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      width: 75%;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 5px;
+      background: $primary;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+      margin-right: $spacer;
+      padding-right: $spacer;
+
+      &::after {
+        width: 5px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: auto;
+        transform: none;
+      }
+    }
+  }
+
+  h2 {
+    @extend .fancy-underline;
+  }
+
+  ul {
+    font-size: 1.5rem;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    li {
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+      list-style: none;
+      position: relative;
+      margin-left: 50px;
+
+      &::before {
+        // @extend %fa-icon;
+        // @extend .fas;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        position: absolute;
+        right: 100%;
+        margin-right: .75rem;
+        font-size: 16px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 1px solid $white;
+        background: $primary;
+        color: $white;
+        text-align: center;
+        display: inline-block;
+        padding-top: 6px;
+      }
+    }
+
+    &.skills {
+      li::before {
+        content: "\f121"; //code
+        // content: fa-content($fa-var-code);
+      }
+
+      @include media-breakpoint-up(lg) {
+        columns: 2;
+      }
+    }
+
+    &.tools {
+      li::before {
+        content: "\f013"; //cog
+        // content: fa-content($fa-var-cog);
+      }
+    }
+  }
+}

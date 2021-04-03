@@ -1,0 +1,9 @@
+#portfolio {
+  .container-fluid.intro {
+    text-align: right;
+  }
+
+  h2 {
+    @extend .fancy-underline;
+  }
+}
