@@ -151,6 +151,29 @@
             <i class="fab fa-linkedin"></i> Linkedin page!
           </a>
         </h3>
+
+        <p class="lead">Or: </p>
+        
+        <div class="contact-form-wrapper">
+          <h3>Send Me an Email:</h3>
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/xnqlqvey"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="contactEmail">Email address*</label>
+              <input type="email" class="form-control" id="contactEmail" placeholder="Email Address*" name="_replyto" required>
+            </div>
+            <input type="hidden" name="_subject" value="Submission from mireillegallegos.github.io" />
+            <div class="form-group">
+              <label for="contactMessage">Message*</label>
+              <textarea class="form-control" id="contactMessage" rows="3" placeholder="Message*" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-fancy">Send</button>
+          </form>
+        </div><!--/contact-form-container-->
+
       </div>
     </section>
   </main>
