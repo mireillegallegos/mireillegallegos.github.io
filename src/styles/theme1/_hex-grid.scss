@@ -16,7 +16,7 @@ $block: '.work-grid';
       --counter: #{$i + 1}; 
       
       >* {
-        background-color: rgba($primary, .9 - ($i * .2)) !important;
+        background-color: rgba($primary, .9 - ($i * .15)) !important;
       }
     }
 
@@ -91,7 +91,8 @@ $block: '.work-grid';
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      padding: 1.5rem;
+      padding: 1.75rem;
+      font-size: 1.5rem;
 
       &:before {
         content: '';
