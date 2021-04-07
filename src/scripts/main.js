@@ -1,6 +1,8 @@
 $(document).ready(function (){
   // scrollto anchor link
-  $("a[href^='#']").click(function (){
+  $("a[href^='#']").click(function (e){
+    e.preventDefault();
+
     // get target from href
     var target = $(this).attr('href');
 
